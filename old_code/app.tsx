@@ -73,7 +73,7 @@ function App(): JSX.Element {
         style={backgroundStyle}>
         <Header />
         <View
-          style={{
+          style={{  
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
