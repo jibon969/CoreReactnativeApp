@@ -1,9 +1,14 @@
-import axios from 'axios';
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 
-export const bela = axios.create({
-  // baseURL: 'http://10.160.23.178:8000',
-  baseURL: 'https://belaface.be',
-});
+const api = () => {
+  return (
+    <View>
+      <Text>api</Text>
+    </View>
+  );
+};
 
-// export const BASE_URL = 'http://10.160.23.178:8000';
-export const BASE_URL = 'https://belaface.be';
+export default api;
+
+const styles = StyleSheet.create({});
