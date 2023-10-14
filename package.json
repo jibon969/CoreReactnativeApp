@@ -39,7 +39,6 @@
     "react-native-screens": "~3.20.0",
     "react-native-store-version": "^1.4.0",
     "react-native-web": "~0.18.7",
-    "react-native-webview": "11.26.0",
     "yup": "^0.32.11"
   },
   "engines": {
