@@ -2,13 +2,14 @@ import {StyleSheet, Text, View, useColorScheme} from 'react-native';
 import React from 'react';
 
 export default function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+  const isDarkMode = useColorScheme() === 'light';
 
   return (
     <View style={styles.container}>
       <Text style={isDarkMode ? styles.whiteTest : styles.darkTest}>
         Hello React World !
       </Text>
+      <Text>Learn More ...</Text>
     </View>
   );
 }
@@ -16,11 +17,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   whiteTest: {
-    color: '#FFFFFF',
+    color: 'green',
   },
   darkTest: {
     color: 'red',
